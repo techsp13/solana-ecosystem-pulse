@@ -1,0 +1,50 @@
+{
+  "telemetry": {
+    "timestamp": "2026-08-30T09:04:08Z",
+    "network": "Solana Mainnet-Beta",
+    "performance": {
+      "current_slot": 442840485,
+      "epoch": 1025,
+      "slot_index": 40488,
+      "slots_in_epoch": 432000,
+      "epoch_progress_pct": 9.37,
+      "current_tps": 3112.2,
+      "average_tps": 3143.8,
+      "tps_history": [
+        3112.2,
+        3178.7,
+        3158.4,
+        3136.4,
+        3133.5
+      ],
+      "total_transactions": 543370769106,
+      "estimated_slot_time_ms": 408
+    },
+    "validators": {
+      "active_validators": 678,
+      "delinquent_validators": 19,
+      "total_validators": 697,
+      "delinquency_rate_pct": 2.73,
+      "total_stake_sol": 437127889.66,
+      "active_stake_sol": 436877423.75,
+      "nakamoto_coefficient": 19
+    },
+    "economics": {
+      "sol_price_usd": 104.84,
+      "sol_price_24h_change_pct": 1.42,
+      "defi_tvl_usd": 5901472291.19,
+      "dex_volume_24h_usd": 2850000000.0,
+      "stablecoin_market_cap_usd": 4250000000.0,
+      "median_transaction_fee_usd": 0.00064
+    }
+  },
+  "anomalies": [
+    {
+      "metric": "Network Status",
+      "severity": "NORMAL",
+      "value": "OPTIMAL",
+      "threshold": "All green",
+      "message": "All network health, throughput, and consensus metrics operating within nominal boundaries."
+    }
+  ]
+}
