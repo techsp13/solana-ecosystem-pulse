@@ -1,23 +1,23 @@
 {
   "telemetry": {
-    "timestamp": "2026-08-31T16:12:48Z",
+    "timestamp": "2026-08-31T16:13:45Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 443193792,
+      "current_slot": 443193971,
       "epoch": 1025,
-      "slot_index": 393793,
+      "slot_index": 393972,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 91.16,
-      "current_tps": 5596.7,
-      "average_tps": 5093.1,
+      "epoch_progress_pct": 91.2,
+      "current_tps": 5140.6,
+      "average_tps": 5225.3,
       "tps_history": [
-        5596.7,
-        4974.1,
-        5140.9,
-        4829.9,
-        4923.9
+        5140.6,
+        5567.1,
+        5355.8,
+        5025.8,
+        5037.3
       ],
-      "total_transactions": 543816242712,
+      "total_transactions": 543816525159,
       "estimated_slot_time_ms": 408
     },
     "validators": {
