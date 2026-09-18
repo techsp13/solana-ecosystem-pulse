@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-09-18T15:41:28Z",
+    "timestamp": "2026-09-18T20:17:58Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 448126904,
+      "current_slot": 448188987,
       "epoch": 1037,
-      "slot_index": 142905,
+      "slot_index": 204987,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 33.08,
-      "current_tps": 4552.4,
-      "average_tps": 4725.5,
+      "epoch_progress_pct": 47.45,
+      "current_tps": 5382.3,
+      "average_tps": 4781.2,
       "tps_history": [
-        4552.4,
-        4857.1,
-        4998.8,
-        4804.9,
-        4414.2
+        5382.3,
+        4766.1,
+        4759.8,
+        4419.9,
+        4577.7
       ],
-      "total_transactions": 549839212061,
+      "total_transactions": 549922270888,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 678,
-      "delinquent_validators": 10,
+      "active_validators": 676,
+      "delinquent_validators": 12,
       "total_validators": 688,
-      "delinquency_rate_pct": 1.45,
+      "delinquency_rate_pct": 1.74,
       "total_stake_sol": 439612407.68,
-      "active_stake_sol": 439454645.18,
+      "active_stake_sol": 439435801.55,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 110.68,
-      "sol_price_24h_change_pct": 9.55,
-      "defi_tvl_usd": 6074970771.44,
+      "sol_price_usd": 113.81,
+      "sol_price_24h_change_pct": 12.58,
+      "defi_tvl_usd": 6242343436.61,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -40,11 +40,11 @@
   },
   "anomalies": [
     {
-      "metric": "Network Status",
-      "severity": "NORMAL",
-      "value": "OPTIMAL",
-      "threshold": "All green",
-      "message": "All network health, throughput, and consensus metrics operating within nominal boundaries."
+      "metric": "High SOL Volatility",
+      "severity": "INFO",
+      "value": "12.58%",
+      "threshold": "> 10.0%",
+      "message": "Significant price movement in the past 24 hours."
     }
   ]
 }
