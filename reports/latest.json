@@ -1,23 +1,23 @@
 {
   "telemetry": {
-    "timestamp": "2026-09-19T02:48:27Z",
+    "timestamp": "2026-09-19T10:10:48Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 448276756,
+      "current_slot": 448376564,
       "epoch": 1037,
-      "slot_index": 292759,
+      "slot_index": 392565,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 67.77,
-      "current_tps": 4412.6,
-      "average_tps": 4454.6,
+      "epoch_progress_pct": 90.87,
+      "current_tps": 3821.6,
+      "average_tps": 3848.6,
       "tps_history": [
-        4412.6,
-        4584.3,
-        4537.3,
-        4213.3,
-        4525.4
+        3821.6,
+        3876.0,
+        3956.5,
+        3720.4,
+        3868.4
       ],
-      "total_transactions": 550031389180,
+      "total_transactions": 550138630155,
       "estimated_slot_time_ms": 408
     },
     "validators": {
@@ -30,9 +30,9 @@
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 113.43,
-      "sol_price_24h_change_pct": 10.63,
-      "defi_tvl_usd": 6303420796.52,
+      "sol_price_usd": 111.77,
+      "sol_price_24h_change_pct": 5.11,
+      "defi_tvl_usd": 6258605934.68,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -40,11 +40,11 @@
   },
   "anomalies": [
     {
-      "metric": "High SOL Volatility",
-      "severity": "INFO",
-      "value": "10.63%",
-      "threshold": "> 10.0%",
-      "message": "Significant price movement in the past 24 hours."
+      "metric": "Network Status",
+      "severity": "NORMAL",
+      "value": "OPTIMAL",
+      "threshold": "All green",
+      "message": "All network health, throughput, and consensus metrics operating within nominal boundaries."
     }
   ]
 }
