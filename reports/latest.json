@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-10-05T13:23:35Z",
+    "timestamp": "2026-10-05T23:37:42Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 453591690,
-      "epoch": 1049,
-      "slot_index": 423691,
+      "current_slot": 453728723,
+      "epoch": 1050,
+      "slot_index": 128724,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 98.08,
-      "current_tps": 4358.2,
-      "average_tps": 4366.5,
+      "epoch_progress_pct": 29.8,
+      "current_tps": 4535.9,
+      "average_tps": 4426.3,
       "tps_history": [
-        4358.2,
-        4517.1,
-        4649.3,
-        4221.8,
-        4086.3
+        4535.9,
+        4392.8,
+        4312.1,
+        4455.4,
+        4435.3
       ],
-      "total_transactions": 556354257162,
+      "total_transactions": 556529272390,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 671,
-      "delinquent_validators": 15,
-      "total_validators": 686,
-      "delinquency_rate_pct": 2.19,
-      "total_stake_sol": 441848823.05,
-      "active_stake_sol": 441728578.09,
+      "active_validators": 672,
+      "delinquent_validators": 13,
+      "total_validators": 685,
+      "delinquency_rate_pct": 1.9,
+      "total_stake_sol": 441738540.62,
+      "active_stake_sol": 441657012.76,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 120.66,
-      "sol_price_24h_change_pct": -0.66,
-      "defi_tvl_usd": 6722135265.56,
+      "sol_price_usd": 120.73,
+      "sol_price_24h_change_pct": -0.69,
+      "defi_tvl_usd": 6781683219.92,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
