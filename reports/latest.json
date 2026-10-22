@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-10-21T21:08:51Z",
+    "timestamp": "2026-10-22T02:59:17Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 459775615,
+      "current_slot": 459874378,
       "epoch": 1064,
-      "slot_index": 127616,
+      "slot_index": 226379,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 29.54,
-      "current_tps": 2329.7,
-      "average_tps": 2534.8,
+      "epoch_progress_pct": 52.4,
+      "current_tps": 1512.9,
+      "average_tps": 1599.0,
       "tps_history": [
-        2329.7,
-        2068.6,
-        2401.6,
-        2767.3,
-        3107.0
+        1512.9,
+        1601.8,
+        1549.1,
+        1665.9,
+        1665.5
       ],
-      "total_transactions": 563106341624,
+      "total_transactions": 563150845395,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 668,
-      "delinquent_validators": 9,
+      "active_validators": 667,
+      "delinquent_validators": 10,
       "total_validators": 677,
-      "delinquency_rate_pct": 1.33,
+      "delinquency_rate_pct": 1.48,
       "total_stake_sol": 438868046.05,
-      "active_stake_sol": 438845972.81,
+      "active_stake_sol": 438707543.29,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 107.99,
-      "sol_price_24h_change_pct": 1.23,
-      "defi_tvl_usd": 6055835656.26,
+      "sol_price_usd": 105.37,
+      "sol_price_24h_change_pct": -0.82,
+      "defi_tvl_usd": 6032176549.26,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -40,11 +40,11 @@
   },
   "anomalies": [
     {
-      "metric": "Network Status",
-      "severity": "NORMAL",
-      "value": "OPTIMAL",
-      "threshold": "All green",
-      "message": "All network health, throughput, and consensus metrics operating within nominal boundaries."
+      "metric": "TPS Degradation",
+      "severity": "WARNING",
+      "value": "1512.9 TPS",
+      "threshold": "< 1800.0 TPS",
+      "message": "Throughput below standard baseline. Possible block producer congestion or network slowdown."
     }
   ]
 }
