@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-10-24T15:16:01Z",
+    "timestamp": "2026-10-24T20:05:25Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 460897684,
-      "epoch": 1066,
-      "slot_index": 385684,
+      "current_slot": 460979565,
+      "epoch": 1067,
+      "slot_index": 35565,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 89.28,
-      "current_tps": 2222.2,
-      "average_tps": 2455.2,
+      "epoch_progress_pct": 8.23,
+      "current_tps": 1741.4,
+      "average_tps": 1923.3,
       "tps_history": [
-        2222.2,
-        2074.5,
-        2340.4,
-        2373.6,
-        3265.5
+        1741.4,
+        1604.8,
+        1689.4,
+        2345.8,
+        2235.0
       ],
-      "total_transactions": 563555544490,
+      "total_transactions": 563589690712,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 664,
-      "delinquent_validators": 14,
-      "total_validators": 678,
-      "delinquency_rate_pct": 2.06,
-      "total_stake_sol": 437116781.97,
-      "active_stake_sol": 436827007.22,
+      "active_validators": 665,
+      "delinquent_validators": 25,
+      "total_validators": 690,
+      "delinquency_rate_pct": 3.62,
+      "total_stake_sol": 437191005.83,
+      "active_stake_sol": 436976346.73,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 99.53,
-      "sol_price_24h_change_pct": -4.65,
-      "defi_tvl_usd": 5755393065.77,
+      "sol_price_usd": 101.41,
+      "sol_price_24h_change_pct": -2.06,
+      "defi_tvl_usd": 5717401346.81,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -40,11 +40,18 @@
   },
   "anomalies": [
     {
-      "metric": "Network Status",
-      "severity": "NORMAL",
-      "value": "OPTIMAL",
-      "threshold": "All green",
-      "message": "All network health, throughput, and consensus metrics operating within nominal boundaries."
+      "metric": "TPS Degradation",
+      "severity": "WARNING",
+      "value": "1741.4 TPS",
+      "threshold": "< 1800.0 TPS",
+      "message": "Throughput below standard baseline. Possible block producer congestion or network slowdown."
+    },
+    {
+      "metric": "Validator Delinquency Spike",
+      "severity": "WARNING",
+      "value": "3.62%",
+      "threshold": "> 3.0%",
+      "message": "Elevated delinquent validator count (25 offline nodes)."
     }
   ]
 }
