@@ -1,23 +1,23 @@
 {
   "telemetry": {
-    "timestamp": "2026-10-24T10:08:39Z",
+    "timestamp": "2026-10-24T15:16:01Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 460810799,
+      "current_slot": 460897684,
       "epoch": 1066,
-      "slot_index": 298801,
+      "slot_index": 385684,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 69.17,
-      "current_tps": 2202.6,
-      "average_tps": 1857.4,
+      "epoch_progress_pct": 89.28,
+      "current_tps": 2222.2,
+      "average_tps": 2455.2,
       "tps_history": [
-        2202.6,
-        1947.9,
-        1917.6,
-        1660.3,
-        1558.4
+        2222.2,
+        2074.5,
+        2340.4,
+        2373.6,
+        3265.5
       ],
-      "total_transactions": 563526010769,
+      "total_transactions": 563555544490,
       "estimated_slot_time_ms": 408
     },
     "validators": {
@@ -30,9 +30,9 @@
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 101.32,
-      "sol_price_24h_change_pct": -2.74,
-      "defi_tvl_usd": 5782920023.93,
+      "sol_price_usd": 99.53,
+      "sol_price_24h_change_pct": -4.65,
+      "defi_tvl_usd": 5755393065.77,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
