@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-10-27T21:43:43Z",
+    "timestamp": "2026-10-28T03:41:01Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 462226999,
-      "epoch": 1069,
-      "slot_index": 418999,
+      "current_slot": 462327697,
+      "epoch": 1070,
+      "slot_index": 87697,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 96.99,
-      "current_tps": 1571.3,
-      "average_tps": 1600.4,
+      "epoch_progress_pct": 20.3,
+      "current_tps": 1696.7,
+      "average_tps": 1394.7,
       "tps_history": [
-        1571.3,
-        1476.4,
-        1588.3,
-        1697.4,
-        1668.7
+        1696.7,
+        1518.2,
+        1261.9,
+        1287.2,
+        1209.7
       ],
-      "total_transactions": 564054405487,
+      "total_transactions": 564092792380,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 665,
-      "delinquent_validators": 20,
-      "total_validators": 685,
-      "delinquency_rate_pct": 2.92,
-      "total_stake_sol": 436873593.07,
-      "active_stake_sol": 436501444.53,
+      "active_validators": 662,
+      "delinquent_validators": 29,
+      "total_validators": 691,
+      "delinquency_rate_pct": 4.2,
+      "total_stake_sol": 437290026.34,
+      "active_stake_sol": 433415732.94,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 101.53,
-      "sol_price_24h_change_pct": 0.95,
-      "defi_tvl_usd": 5721042379.65,
+      "sol_price_usd": 102.1,
+      "sol_price_24h_change_pct": 1.91,
+      "defi_tvl_usd": 5743344216.46,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -42,9 +42,16 @@
     {
       "metric": "TPS Degradation",
       "severity": "WARNING",
-      "value": "1571.3 TPS",
+      "value": "1696.7 TPS",
       "threshold": "< 1800.0 TPS",
       "message": "Throughput below standard baseline. Possible block producer congestion or network slowdown."
+    },
+    {
+      "metric": "Validator Delinquency Spike",
+      "severity": "WARNING",
+      "value": "4.2%",
+      "threshold": "> 3.0%",
+      "message": "Elevated delinquent validator count (29 offline nodes)."
     }
   ]
 }
