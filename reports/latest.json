@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-10-29T22:21:27Z",
+    "timestamp": "2026-10-30T04:01:55Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 463047244,
-      "epoch": 1071,
-      "slot_index": 375245,
+      "current_slot": 463142840,
+      "epoch": 1072,
+      "slot_index": 38842,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 86.86,
-      "current_tps": 2234.4,
-      "average_tps": 2585.5,
+      "epoch_progress_pct": 8.99,
+      "current_tps": 2083.8,
+      "average_tps": 1586.8,
       "tps_history": [
-        2234.4,
-        2414.3,
-        2474.6,
-        2919.9,
-        2884.1
+        2083.8,
+        1277.6,
+        1429.0,
+        1721.7,
+        1422.0
       ],
-      "total_transactions": 564369108606,
+      "total_transactions": 564414142202,
       "estimated_slot_time_ms": 408
     },
     "validators": {
       "active_validators": 666,
-      "delinquent_validators": 23,
-      "total_validators": 689,
-      "delinquency_rate_pct": 3.34,
-      "total_stake_sol": 436776187.41,
-      "active_stake_sol": 433555190.55,
+      "delinquent_validators": 25,
+      "total_validators": 691,
+      "delinquency_rate_pct": 3.62,
+      "total_stake_sol": 435357093.15,
+      "active_stake_sol": 431287233.14,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 97.06,
-      "sol_price_24h_change_pct": -5.12,
-      "defi_tvl_usd": 5612773969.84,
+      "sol_price_usd": 96.98,
+      "sol_price_24h_change_pct": -2.52,
+      "defi_tvl_usd": 5362563613.87,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -42,9 +42,9 @@
     {
       "metric": "Validator Delinquency Spike",
       "severity": "WARNING",
-      "value": "3.34%",
+      "value": "3.62%",
       "threshold": "> 3.0%",
-      "message": "Elevated delinquent validator count (23 offline nodes)."
+      "message": "Elevated delinquent validator count (25 offline nodes)."
     }
   ]
 }
