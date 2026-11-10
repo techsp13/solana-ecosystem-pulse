@@ -1,23 +1,23 @@
 {
   "telemetry": {
-    "timestamp": "2026-11-10T01:05:22Z",
+    "timestamp": "2026-11-10T14:10:39Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 467529126,
+      "current_slot": 467749229,
       "epoch": 1082,
-      "slot_index": 105127,
+      "slot_index": 325230,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 24.33,
-      "current_tps": 1430.0,
-      "average_tps": 1372.8,
+      "epoch_progress_pct": 75.28,
+      "current_tps": 1832.7,
+      "average_tps": 1665.8,
       "tps_history": [
-        1430.0,
-        1232.6,
-        1351.0,
-        1494.2,
-        1356.2
+        1832.7,
+        1469.6,
+        1548.1,
+        1774.6,
+        1703.9
       ],
-      "total_transactions": 565976014226,
+      "total_transactions": 566036841740,
       "estimated_slot_time_ms": 408
     },
     "validators": {
@@ -30,22 +30,15 @@
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 86.63,
-      "sol_price_24h_change_pct": -1.18,
-      "defi_tvl_usd": 5091379326.09,
+      "sol_price_usd": 84.22,
+      "sol_price_24h_change_pct": -2.77,
+      "defi_tvl_usd": 5023511315.8,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
     }
   },
   "anomalies": [
-    {
-      "metric": "TPS Degradation",
-      "severity": "WARNING",
-      "value": "1430.0 TPS",
-      "threshold": "< 1800.0 TPS",
-      "message": "Throughput below standard baseline. Possible block producer congestion or network slowdown."
-    },
     {
       "metric": "Validator Delinquency Spike",
       "severity": "WARNING",
