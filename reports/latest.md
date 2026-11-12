@@ -1,5 +1,5 @@
 # ⚡ Solana Ecosystem Intelligence & Health Report
-> **Generated at:** `2026-11-11T23:57:30Z` | **Network:** `Solana Mainnet-Beta`  
+> **Generated at:** `2026-11-12T06:10:25Z` | **Network:** `Solana Mainnet-Beta`  
 > **Automated Telemetry Engine:** [Solana Ecosystem Pulse](https://github.com/techsp13/solana-ecosystem-pulse)
 
 ---
@@ -8,12 +8,12 @@
 
 | Metric | Value | Baseline / Target | Status |
 |---|---|---|---|
-| **Current Throughput** | **2,099.8 TPS** | ~2,500 - 3,500 TPS | 🟢 Nominal |
-| **Average TPS (Recent)** | **1,954.1 TPS** | > 2,000 TPS | 🟢 Nominal |
-| **Current Slot Height** | `#468,315,677` | — | 🟢 Synchronized |
-| **Epoch Progress** | **Epoch 1084 (6.41%)** | 432,000 slots | 🟢 On Schedule |
+| **Current Throughput** | **1,279.9 TPS** | ~2,500 - 3,500 TPS | 🟢 Nominal |
+| **Average TPS (Recent)** | **1,477.2 TPS** | > 2,000 TPS | 🟢 Nominal |
+| **Current Slot Height** | `#468,419,779` | — | 🟢 Synchronized |
+| **Epoch Progress** | **Epoch 1084 (30.5%)** | 432,000 slots | 🟢 On Schedule |
 | **Slot Execution Time** | **408 ms** | 400 ms target | 🟢 Healthy |
-| **Total Processed Txs** | `566,271,692,979` | Cumulative | 🟢 Continuous |
+| **Total Processed Txs** | `566,309,337,461` | Cumulative | 🟢 Continuous |
 
 ---
 
@@ -32,8 +32,8 @@
 
 | Metric | Value | 24h Trend |
 |---|---|---|
-| **SOL Price (USD)** | **$83.24** | `-0.03%` |
-| **Solana DeFi TVL** | **$5,097,330,781.03** | Robust liquidity |
+| **SOL Price (USD)** | **$82.95** | `-0.18%` |
+| **Solana DeFi TVL** | **$5,049,299,430.06** | Robust liquidity |
 | **24h DEX Volume** | **$2,850,000,000.00** | High on-chain velocity |
 | **Median Tx Fee** | **$0.00064** | Sub-cent execution |
 
@@ -43,6 +43,7 @@
 
 | Metric | Severity | Current Value | Assessment & Note |
 |---|---|---|---|
+| **TPS Degradation** | `🟡 WARNING` | `1279.9 TPS` | Throughput below standard baseline. Possible block producer congestion or network slowdown. |
 | **Validator Delinquency Spike** | `🟡 WARNING` | `5.3%` | Elevated delinquent validator count (37 offline nodes). |
 
 ---
