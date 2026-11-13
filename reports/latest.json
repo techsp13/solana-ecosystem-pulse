@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-11-12T19:27:03Z",
+    "timestamp": "2026-11-13T04:44:35Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 468642018,
-      "epoch": 1084,
-      "slot_index": 354019,
+      "current_slot": 468797148,
+      "epoch": 1085,
+      "slot_index": 77150,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 81.95,
-      "current_tps": 2401.9,
-      "average_tps": 2360.9,
+      "epoch_progress_pct": 17.86,
+      "current_tps": 1971.7,
+      "average_tps": 2172.6,
       "tps_history": [
-        2401.9,
-        2581.9,
-        2329.9,
-        2342.2,
-        2148.4
+        1971.7,
+        2463.4,
+        2407.3,
+        1892.0,
+        2128.5
       ],
-      "total_transactions": 566390621463,
+      "total_transactions": 566460440056,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 660,
-      "delinquent_validators": 38,
-      "total_validators": 698,
-      "delinquency_rate_pct": 5.44,
-      "total_stake_sol": 433416361.13,
-      "active_stake_sol": 432731488.91,
+      "active_validators": 659,
+      "delinquent_validators": 40,
+      "total_validators": 699,
+      "delinquency_rate_pct": 5.72,
+      "total_stake_sol": 432410499.07,
+      "active_stake_sol": 431840381.79,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 81.57,
-      "sol_price_24h_change_pct": -3.67,
-      "defi_tvl_usd": 4975113568.22,
+      "sol_price_usd": 78.17,
+      "sol_price_24h_change_pct": -5.68,
+      "defi_tvl_usd": 4985936669.79,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -42,9 +42,9 @@
     {
       "metric": "Validator Delinquency Spike",
       "severity": "WARNING",
-      "value": "5.44%",
+      "value": "5.72%",
       "threshold": "> 3.0%",
-      "message": "Elevated delinquent validator count (38 offline nodes)."
+      "message": "Elevated delinquent validator count (40 offline nodes)."
     }
   ]
 }
