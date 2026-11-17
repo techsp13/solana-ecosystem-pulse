@@ -1,5 +1,5 @@
 # ⚡ Solana Ecosystem Intelligence & Health Report
-> **Generated at:** `2026-11-16T14:34:18Z` | **Network:** `Solana Mainnet-Beta`  
+> **Generated at:** `2026-11-17T01:27:59Z` | **Network:** `Solana Mainnet-Beta`  
 > **Automated Telemetry Engine:** [Solana Ecosystem Pulse](https://github.com/techsp13/solana-ecosystem-pulse)
 
 ---
@@ -8,12 +8,12 @@
 
 | Metric | Value | Baseline / Target | Status |
 |---|---|---|---|
-| **Current Throughput** | **3,058.8 TPS** | ~2,500 - 3,500 TPS | 🟢 Nominal |
-| **Average TPS (Recent)** | **2,747.8 TPS** | > 2,000 TPS | 🟢 Nominal |
-| **Current Slot Height** | `#470,166,741` | — | 🟢 Synchronized |
-| **Epoch Progress** | **Epoch 1088 (34.89%)** | 432,000 slots | 🟢 On Schedule |
+| **Current Throughput** | **1,612.1 TPS** | ~2,500 - 3,500 TPS | 🟢 Nominal |
+| **Average TPS (Recent)** | **1,474.9 TPS** | > 2,000 TPS | 🟢 Nominal |
+| **Current Slot Height** | `#470,349,323` | — | 🟢 Synchronized |
+| **Epoch Progress** | **Epoch 1088 (77.16%)** | 432,000 slots | 🟢 On Schedule |
 | **Slot Execution Time** | **408 ms** | 400 ms target | 🟢 Healthy |
-| **Total Processed Txs** | `566,948,208,076` | Cumulative | 🟢 Continuous |
+| **Total Processed Txs** | `567,036,767,655` | Cumulative | 🟢 Continuous |
 
 ---
 
@@ -32,8 +32,8 @@
 
 | Metric | Value | 24h Trend |
 |---|---|---|
-| **SOL Price (USD)** | **$71.35** | `-0.48%` |
-| **Solana DeFi TVL** | **$4,690,236,991.45** | Robust liquidity |
+| **SOL Price (USD)** | **$71.61** | `+0.45%` |
+| **Solana DeFi TVL** | **$4,745,159,814.64** | Robust liquidity |
 | **24h DEX Volume** | **$2,850,000,000.00** | High on-chain velocity |
 | **Median Tx Fee** | **$0.00064** | Sub-cent execution |
 
@@ -43,6 +43,7 @@
 
 | Metric | Severity | Current Value | Assessment & Note |
 |---|---|---|---|
+| **TPS Degradation** | `🟡 WARNING` | `1612.1 TPS` | Throughput below standard baseline. Possible block producer congestion or network slowdown. |
 | **Validator Delinquency Spike** | `🟡 WARNING` | `5.29%` | Elevated delinquent validator count (37 offline nodes). |
 
 ---
