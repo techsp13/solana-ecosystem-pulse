@@ -1,5 +1,5 @@
 # ⚡ Solana Ecosystem Intelligence & Health Report
-> **Generated at:** `2026-11-17T15:24:19Z` | **Network:** `Solana Mainnet-Beta`  
+> **Generated at:** `2026-11-18T00:24:21Z` | **Network:** `Solana Mainnet-Beta`  
 > **Automated Telemetry Engine:** [Solana Ecosystem Pulse](https://github.com/techsp13/solana-ecosystem-pulse)
 
 ---
@@ -8,12 +8,12 @@
 
 | Metric | Value | Baseline / Target | Status |
 |---|---|---|---|
-| **Current Throughput** | **2,157.9 TPS** | ~2,500 - 3,500 TPS | 🟢 Nominal |
-| **Average TPS (Recent)** | **2,317.9 TPS** | > 2,000 TPS | 🟢 Nominal |
-| **Current Slot Height** | `#470,582,917` | — | 🟢 Synchronized |
-| **Epoch Progress** | **Epoch 1089 (31.23%)** | 432,000 slots | 🟢 On Schedule |
+| **Current Throughput** | **2,168.4 TPS** | ~2,500 - 3,500 TPS | 🟢 Nominal |
+| **Average TPS (Recent)** | **1,930.7 TPS** | > 2,000 TPS | 🟢 Nominal |
+| **Current Slot Height** | `#470,733,272` | — | 🟢 Synchronized |
+| **Epoch Progress** | **Epoch 1089 (66.04%)** | 432,000 slots | 🟢 On Schedule |
 | **Slot Execution Time** | **408 ms** | 400 ms target | 🟢 Healthy |
-| **Total Processed Txs** | `567,107,739,799` | Cumulative | 🟢 Continuous |
+| **Total Processed Txs** | `567,177,527,432` | Cumulative | 🟢 Continuous |
 
 ---
 
@@ -32,8 +32,8 @@
 
 | Metric | Value | 24h Trend |
 |---|---|---|
-| **SOL Price (USD)** | **$73.58** | `+4.76%` |
-| **Solana DeFi TVL** | **$4,802,561,636.92** | Robust liquidity |
+| **SOL Price (USD)** | **$75.08** | `+5.30%` |
+| **Solana DeFi TVL** | **$4,761,137,008.31** | Robust liquidity |
 | **24h DEX Volume** | **$2,850,000,000.00** | High on-chain velocity |
 | **Median Tx Fee** | **$0.00064** | Sub-cent execution |
 
