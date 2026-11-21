@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-11-21T14:03:09Z",
+    "timestamp": "2026-11-21T22:41:58Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 472165499,
-      "epoch": 1092,
-      "slot_index": 421500,
+      "current_slot": 472310223,
+      "epoch": 1093,
+      "slot_index": 134223,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 97.57,
-      "current_tps": 2053.1,
-      "average_tps": 1820.0,
+      "epoch_progress_pct": 31.07,
+      "current_tps": 1804.0,
+      "average_tps": 1579.2,
       "tps_history": [
-        2053.1,
-        2082.1,
-        1897.3,
-        1690.1,
-        1377.2
+        1804.0,
+        1660.0,
+        1328.4,
+        1676.9,
+        1426.8
       ],
-      "total_transactions": 567739806106,
+      "total_transactions": 567793112584,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 662,
-      "delinquent_validators": 23,
+      "active_validators": 661,
+      "delinquent_validators": 24,
       "total_validators": 685,
-      "delinquency_rate_pct": 3.36,
-      "total_stake_sol": 428985796.8,
-      "active_stake_sol": 428912356.0,
+      "delinquency_rate_pct": 3.5,
+      "total_stake_sol": 428316392.11,
+      "active_stake_sol": 428242961.38,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 70.69,
-      "sol_price_24h_change_pct": -0.89,
-      "defi_tvl_usd": 4556965824.21,
+      "sol_price_usd": 70.04,
+      "sol_price_24h_change_pct": 1.17,
+      "defi_tvl_usd": 4634019892.9,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -42,9 +42,9 @@
     {
       "metric": "Validator Delinquency Spike",
       "severity": "WARNING",
-      "value": "3.36%",
+      "value": "3.5%",
       "threshold": "> 3.0%",
-      "message": "Elevated delinquent validator count (23 offline nodes)."
+      "message": "Elevated delinquent validator count (24 offline nodes)."
     }
   ]
 }
