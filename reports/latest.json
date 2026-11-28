@@ -1,38 +1,38 @@
 {
   "telemetry": {
-    "timestamp": "2026-11-28T00:58:19Z",
+    "timestamp": "2026-11-28T14:56:26Z",
     "network": "Solana Mainnet-Beta",
     "performance": {
-      "current_slot": 474759702,
-      "epoch": 1098,
-      "slot_index": 423703,
+      "current_slot": 474994793,
+      "epoch": 1099,
+      "slot_index": 226793,
       "slots_in_epoch": 432000,
-      "epoch_progress_pct": 98.08,
-      "current_tps": 1916.8,
-      "average_tps": 1811.8,
+      "epoch_progress_pct": 52.5,
+      "current_tps": 1969.1,
+      "average_tps": 1482.2,
       "tps_history": [
-        1916.8,
-        2039.0,
-        1790.1,
-        1646.4,
-        1666.8
+        1969.1,
+        1705.8,
+        1371.3,
+        1189.7,
+        1175.2
       ],
-      "total_transactions": 568693931300,
+      "total_transactions": 568756387420,
       "estimated_slot_time_ms": 408
     },
     "validators": {
-      "active_validators": 653,
-      "delinquent_validators": 35,
-      "total_validators": 688,
-      "delinquency_rate_pct": 5.09,
-      "total_stake_sol": 424207451.2,
-      "active_stake_sol": 423608868.57,
+      "active_validators": 654,
+      "delinquent_validators": 11,
+      "total_validators": 665,
+      "delinquency_rate_pct": 1.65,
+      "total_stake_sol": 423553544.37,
+      "active_stake_sol": 423402404.92,
       "nakamoto_coefficient": 19
     },
     "economics": {
-      "sol_price_usd": 71.72,
-      "sol_price_24h_change_pct": 0.78,
-      "defi_tvl_usd": 4640838602.23,
+      "sol_price_usd": 70.52,
+      "sol_price_24h_change_pct": -0.53,
+      "defi_tvl_usd": 4583323747.85,
       "dex_volume_24h_usd": 2850000000.0,
       "stablecoin_market_cap_usd": 4250000000.0,
       "median_transaction_fee_usd": 0.00064
@@ -40,11 +40,11 @@
   },
   "anomalies": [
     {
-      "metric": "Validator Delinquency Spike",
-      "severity": "WARNING",
-      "value": "5.09%",
-      "threshold": "> 3.0%",
-      "message": "Elevated delinquent validator count (35 offline nodes)."
+      "metric": "Network Status",
+      "severity": "NORMAL",
+      "value": "OPTIMAL",
+      "threshold": "All green",
+      "message": "All network health, throughput, and consensus metrics operating within nominal boundaries."
     }
   ]
 }
